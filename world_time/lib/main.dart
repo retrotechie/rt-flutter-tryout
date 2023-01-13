@@ -22,16 +22,8 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ),
       body: Center(
-        child: Text(
-          "Retro Techie hot reload",
-          style: TextStyle(
-            fontSize: 20.0,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.0,
-            color: Colors.grey[600],
-            fontFamily: "IndieFlower", // Font added in pubspec.yaml
-          ),
-        ),
+        child: Image.asset(
+            "assets/image1.jpg"), // or `.network` for online image URL
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
